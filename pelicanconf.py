@@ -2,15 +2,15 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'Luiz Irber'
-SITENAME = 'Gabbleblotchits'
-SITESUBTITLE = 'Vogon Poetry, Computers and (some) biology'
+AUTHOR = 'Dat K Nguyen'
+SITENAME = 'Dat K Nguyen'
+SITESUBTITLE = 'micro pessimist, macro optimist'
 SITEURL = ''
 
 PATH = 'content'
 
 DEFAULT_DATE_FORMAT = '%b %d, %Y'
-TIMEZONE = 'America/Sao_Paulo'
+TIMEZONE = 'Europe/London'
 DEFAULT_LANG = 'en'
 
 # Set the article URL

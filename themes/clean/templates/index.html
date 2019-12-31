@@ -12,8 +12,20 @@
                 title="Permalink to {{ article.title|striptags }}">{{ article.title }}
             </a>
         <time class="single" datetime="{{ article.date.isoformat() }}">{{ article.date.strftime("%B %d, %Y") }}</time>
+
+
     </a>
     {% endfor %}
     </ul>
+
+    <h1>{{ articles_page.object_list[0].title }}</h1>
+
+    <time class="single" datetime="{{ articles_page.object_list[0].date.isoformat() }}">{{ articles_page.object_list[0].date.strftime("%d %b %Y") }}</time>
+
+    {{ articles_page.object_list[0].content }}
+
+    </a>
+
+
 
 {% endblock %}

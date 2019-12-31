@@ -18,36 +18,32 @@
         <header>
           <h1>{{ SITENAME }}</h1>
 
-          <a href="mailto:contact@luizirber.org">
+          <a href="mailto:dat.nguyen@cantab.net">
             <img class='email'
                  src='{{ SITEURL }}/theme/icons/email.svg'
                  alt='email me'
                  title='email me'/>
           </a>
-          <a href="https://social.lasanha.org/@luizirber">
-            <img class='mastodon'
-                 src='{{ SITEURL }}/theme/icons/mastodon.svg'
-                 alt='Mastodon icon'
-                 title='Follow me on Mastodon'/>
           </a>
-          <a href="https://github.com/luizirber">
+          <a href="https://github.com/dkn22">
             <img class='github'
                  src='{{ SITEURL }}/theme/icons/github.svg'
                  alt='github projects'
                  title='github profile'/>
           </a>
-          <a href="https://luizirber.newsblur.com">
-            <img class='newsblur'
-                 src='{{ SITEURL }}/theme/icons/newsblur.svg'
-                 alt='my shared stories on newsblur'
-                 title='my shared stories on newsblur'/>
+          <a href="https://uk.linkedin.com/uk/datknguyen">
+            <img class='linkedin'
+                 src='{{ SITEURL }}/theme/icons/linkedin.svg'
+                 alt='linkedin'
+                 title='linkedin profile'/>
           </a>
-          <a href="{{ SITEURL }}/{{ FEED_RSS }}" rel="alternative" type="application/rss+xml">
-            <img class='rss'
-                 src='{{ SITEURL }}/theme/icons/feed.svg'
-                 alt='RSS feed icon'
-                 title='Subscribe to my RSS feed'/>
+          <a href="https://www.goodreads.com/user/show/4672749-dat">
+            <img class='goodreads'
+                 src='{{ SITEURL }}/theme/icons/goodreads.svg'
+                 alt='goodreads'
+                 title='goodreads profile'/>
           </a>
+
 
           {% if SITESUBTITLE %}<strong>{{ SITESUBTITLE }}</strong>{% endif %}
         </header>
@@ -55,11 +51,11 @@
         {% block content %}
         {% endblock %}
 
-        <hr />
         <footer class="footer-menu">
             <a href="#top">Back to the top</a>
-            <hr />
+             <hr />
+             <font color="gray" size=0.5><a href="https://github.com/luizirber/blog">Template by Luiz Irber</a></font>
         </footer>
-
+        
 </body>
 </html>
